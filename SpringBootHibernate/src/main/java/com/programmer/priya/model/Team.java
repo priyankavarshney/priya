@@ -2,6 +2,7 @@ package com.programmer.priya.model;
 
 import java.util.List;
 
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -21,7 +22,7 @@ public class Team
 private Long id;
 @Column
 private String name;
-@OneToMany(cascade=CascadeType.ALL,fetch=FetchType.EAGER,mappedBy="Team")
+@OneToMany(cascade=CascadeType.ALL,fetch=FetchType.EAGER,mappedBy="team")
 private List<Player> players;
 public Team()
 {

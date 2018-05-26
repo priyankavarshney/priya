@@ -27,9 +27,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<!-- 
 	<classpathentry exported="true" kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/Oracle Thin Driver"/>
 
-<!-- 	<classpathentry exported="true" kind="lib" path="C:/Users/microsoft/Downloads/ojdbc14-1.0.jar/ojdbc14-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/microsoft/Downloads/ojdbc14-1.0.jar/ojdbc14-1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/microsoft/Downloads/hibernatejar/hibernatejar/ejb3-persistence.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/microsoft/Downloads/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>

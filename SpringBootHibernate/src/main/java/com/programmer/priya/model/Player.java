@@ -1,6 +1,7 @@
 package com.programmer.priya.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,6 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.ManyToOne;
 
+@Entity
 public class Player
 {
 	 @Id
@@ -21,6 +23,7 @@ public class Player
 	    private int num;
 	    @Column(name = "position")
 	    private String position;
+	    
 	    @ManyToOne(fetch = FetchType.LAZY)
 	    @JoinColumn(name="team_id",nullable=false)
 	    private Team team;
